@@ -40,7 +40,7 @@ export default function Home() {
       <About setActiveSection={setActiveSection} />
       <Projects setActiveSection={setActiveSection} />
       <Skills setActiveSection={setActiveSection} />
-      
+    
      
     </main>
   )
