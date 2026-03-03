@@ -17,8 +17,7 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
     { id: 'projects', label: 'Projects' },
-    { id: 'skills', label: 'Skills' },
-    { id: 'contact', label: 'Contact' },
+    { id: 'skills', label: 'Skills' }
   ]
 
   const scrollToSection = (sectionId: string) => {

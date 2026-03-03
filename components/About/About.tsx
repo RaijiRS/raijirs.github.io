@@ -22,8 +22,16 @@ export default function About({ setActiveSection }: AboutProps) {
           </h2>
           <div className="w-24 h-1 bg-primary-600 mx-auto"></div>
         </div>
+        
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-center"><div className="bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl p-8 shadow-lg">
+            <div className="space-y-6">
+            <iframe src="\resume\RRSResume.pdf" width="100%" height="600px">
+               
+            </iframe>
+
+            </div>
+          </div>
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
             I build fast, reliable web applications that solve real
@@ -56,14 +64,7 @@ export default function About({ setActiveSection }: AboutProps) {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl p-8 shadow-lg">
-            <div className="space-y-6">
-            <iframe src="\resume\RRSResume.pdf" width="100%" height="600px">
-               
-            </iframe>
-
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>

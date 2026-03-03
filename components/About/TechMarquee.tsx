@@ -1,23 +1,21 @@
 import Marquee from "react-fast-marquee";
 import {
-  SiDocker,
-  SiMysql,
-  SiSpringboot,
-  SiNextdotjs,
+  SiComptia,
+  SiReact,
   SiNodedotjs,
   SiMongodb,
   SiPostman,
 } from "react-icons/si";
-import { FaAws } from "react-icons/fa";
+import { FaAws,FaVuejs,FaJava } from "react-icons/fa";
 
 export const techStack = [
-  { name: "Next.js", icon: SiNextdotjs },
+  { name: "React", icon: SiReact },
   { name: "Node.js", icon: SiNodedotjs },
   { name: "MongoDB", icon: SiMongodb },
   { name: "Postman", icon: SiPostman },
-  { name: "Docker", icon: SiDocker },
-  { name: "MySQL", icon: SiMysql },
-  { name: "Springboot", icon: SiSpringboot },
+  { name: "Java", icon: FaJava },
+  { name: "Security+", icon: SiComptia },
+  { name: "Vue", icon: FaVuejs },
   { name: "AWS", icon: FaAws },
 ];
 
